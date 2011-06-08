@@ -37,4 +37,9 @@ end
 # and rake tasks are available in development mode:
 # group :development, :test do
 #   gem 'webrat'
+
+group :development, :test do
+  gem 'ZenTest'
+end
+
 # end
